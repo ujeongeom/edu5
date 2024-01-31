@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-  - host: ujeongeom.duckdns.org
+  - host: ujeongeom.duckdns.org:31035
     http:
       paths:
       - path: /
