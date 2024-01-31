@@ -3,6 +3,7 @@ kind: Route
 metadata:
   labels:
     app.kubernetes.io/component: server
+    app.kubernetes.io/instance: edu5-simple
   name: nginx-route-edu18
 spec:
   host: nginx
